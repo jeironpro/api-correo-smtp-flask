@@ -54,7 +54,7 @@ curl -X POST http://localhost:5000/enviar_correo -H "Content-Type: application/j
 ```
 
 ```bash
-curl -X POST http://localhost:5000/enviar_correo_html -H "Content-Type: application/json" -d '{"subject": "Asunto del correo", "to": "destinatario@gmail.com", "message": "Cuerpo del correo"}'
+curl -X POST http://localhost:5000/enviar_correo_html -H "Content-Type: application/json" -d '{"subject": "Asunto del correo", "to": "destinatario@gmail.com"}'
 ```
 
 ## 📜 Licencia
